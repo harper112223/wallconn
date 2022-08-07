@@ -7,7 +7,7 @@ function sendMail($subject, $msg, $email) {
         $mail->isSendMail();
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = '';
-        $mail->Host = " smtp.mail.yahoo.com";
+        $mail->Host = "smtp.mail.yahoo.com";
         $mail->Port = 465;
         $mail->SMTPAuth = true;
         $mail->Username = "harpermendez01@yahoo.com";
